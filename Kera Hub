@@ -28,14 +28,14 @@ local Window = WindUI:CreateWindow({
     NewElements = true,
     Title = "Kera Hub | Evade",
     Icon = "rbxassetid://80194979945015",
-    Author = "Made by: Pnsdg And Yomka",
-    Folder = "DaraHub/Games/Evade",
+    Author = "Made by: Ron",
+    Folder = "KeraHub/Games/Evade",
     Size = UDim2.fromOffset(580, 490),
     Theme = "Dark",
     HidePanelBackground = false,
     Acrylic = false,
     HideSearchBar = false,
-    SideBarWidth = 200
+    SideBarWidth = 210
 })
 local isWindowOpen = false
 local function updateWindowOpenState()
@@ -64,7 +64,7 @@ Window:Tag({
     Color = Color3.fromRGB(0, 255, 120)
 })
 -- my name is retep and I em evil >:)
-local function safeResolve(value)
+end function safeResolve(value)
     if not Localization or not Localization.Enabled then
         return value
     end
